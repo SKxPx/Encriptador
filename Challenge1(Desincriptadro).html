@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Encriptador Challenge </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<main>
+			<img src="img/Logo.png" class="logo" alt="LogoAlura">
+			<textarea name="texto1" id="texto1" class="textarea" cols="30" rows="10" placeholder="&#9997; Ingrese el texto aqui"></textarea>
+				<p class="aviso">&#33; solo letras minusculas y sin acentos</p>
+			<div class="frame">
+				<button type="submit" class="encriptar" id="encriptar" onclick="encriptar()">Encriptar</button>
+				<button type="submit" class="desencriptar" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+			</div>
+			<div>
+				<canvas id="rectangulo"></canvas>
+				<img src="img/Muneco.png" class="muneco" alt="muñecocodificacion">
+				<textarea name="texto2" class="textarea2" cols="30" rows="10" id="texto2">Ningún mensaje fue encontrado</textarea>
+				<p class="texto-muneco">Ingresa el texto que desea encriptar o desencriptar.</p>
+				<button type="submit" class="copiar" id="copiar" onclick="copiar()">Copiar</button>
+			</div>
+		</main>
+		<footer>
+		</footer>
+    <script src="js/encriptador.js"></script>
+	<script src="js/desencriptador.js"></script>
+	<script src="js/copiar.js"></script>
+
+</body>
+</html> 
